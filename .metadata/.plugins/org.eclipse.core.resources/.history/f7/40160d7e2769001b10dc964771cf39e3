@@ -1,0 +1,29 @@
+package Anonymity;
+
+public class AnonymityDemo {
+
+	public static void main(String[] args) {
+		// 匿名类
+		new Animal() {
+			@Override
+			void eat() {
+				System.out.println("猫在吃");
+				super.eat();
+			}
+			@Override
+			void sleep() {
+				System.out.println("猫在睡觉");
+			}
+		};
+
+	}
+
+}
+
+
+abstract class Animal{
+	void eat() {
+	}
+	void sleep() {
+	}
+}

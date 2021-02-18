@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;javaDemo.键盘录入Demo&apos; to &apos;KeyBoardInputDemo&apos;&#x0D;&#x0A;- Original project: &apos;myJavaClasss&apos;&#x0D;&#x0A;- Original element: &apos;javaDemo.键盘录入Demo&apos;&#x0D;&#x0A;- Renamed element: &apos;javaDemo.KeyBoardInputDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;键盘录入Demo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;javaDemo{键盘录入Demo.java[键盘录入Demo" matchStrategy="1" name="KeyBoardInputDemo" qualified="false" references="true" similarDeclarations="false" stamp="1611887295104" textual="false" version="1.0"/>
+</session>

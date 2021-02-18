@@ -1,0 +1,15 @@
+import com.ds.Student.Student;
+
+public class TestDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student student =new Student("zhangsan",23);
+		System.out.println(student.hashCode());
+		System.out.println(student.getClass());
+		System.out.println(student.toString());
+		
+
+	}
+
+}

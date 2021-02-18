@@ -1,0 +1,24 @@
+package com.tate.StringBuffer;
+
+public class StringBufferDemos {
+
+	public static void main(String[] args) {
+		StringBuffer sb =new StringBuffer();//默认长度16
+		StringBuffer sb1 =new StringBuffer(23);//定义长度23
+//		System.out.println(sb.capacity());//StringBuffer 默认长度
+//		System.out.println(sb.length());//StringBuffer 默认长度
+//		sb.append("abcdefghijklmnopq");
+//		System.out.println(sb.capacity());//默认16+17=34
+//		System.out.println(sb.length());
+		sb.append("abcdef");
+		sb.insert(2, "def");
+		System.out.println(sb.toString());//在某个位置插入字符串
+		sb.deleteCharAt(2);
+		System.out.println(sb.toString());
+		sb.delete(2, 4);
+		System.out.println(sb.toString());
+		
+
+	}
+
+}

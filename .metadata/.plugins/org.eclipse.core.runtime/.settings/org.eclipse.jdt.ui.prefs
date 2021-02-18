@@ -1,0 +1,15 @@
+content_assist_autoactivation_triggers_java=.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.StringBuffer"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuffer"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuffer"/></lhs><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.util.Date"><rhs name\="java.sql.Date"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.sql.Date"/></lhs><lhs name\="java.sql.Date"><rhs name\="java.sql.Date"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=20
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="typecomment_context" deleted\="false" description\="Comment for created types" enabled\="true" id\="org.eclipse.jdt.ui.text.codetemplates.typecomment" name\="typecomment">/**\r\n *\r\n * @Description\: ${todo}\r\n * @ClassName\: ${type_name}\r\n * @author ${user}\r\n * @date ${date}\r\n * @version V1.0\r\n *\r\n * \u7528\u51E0\u4E2A\u5C0F\u65F6\u6765\u5236\u5B9A\u8BA1\u5212\uFF0C\u53EF\u4EE5\u8282\u7701\u51E0\u5468\u7684\u7F16\u7A0B\u65F6\u95F4\u3002\r\n * \u5728\u8F6F\u4EF6\u53EF\u4EE5\u88AB\u91CD\u7528\u524D\uFF0C\u5B83\u5FC5\u987B\u5148\u53EF\u4EE5\u88AB\u7528\u3002\r\n */</template><template autoinsert\="false" context\="methodcomment_context" deleted\="false" description\="Comment for non-overriding methods" enabled\="true" id\="org.eclipse.jdt.ui.text.codetemplates.methodcomment" name\="methodcomment">/**\r\n * @author ${user}\r\n * ${tags}\r\n * @Description\: ${todo}\r\n */</template></templates>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java-statements" deleted\="false" description\="print to standard out" enabled\="true" id\="org.eclipse.jdt.ui.templates.sysout" name\="syss">System.out.println("${word_selection}${}");${cursor}</template><template autoinsert\="true" context\="java" deleted\="false" description\="" enabled\="true" name\="dt">System.out.println("\u6211\u662FTate\u3002\u3002\u3002");</template><template autoinsert\="true" context\="java" deleted\="false" description\="" enabled\="true" name\="sysout">System.out.println(${word_selection}${});${cursor}</template></templates>
+sourceHoverBackgroundColor=255,255,225
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

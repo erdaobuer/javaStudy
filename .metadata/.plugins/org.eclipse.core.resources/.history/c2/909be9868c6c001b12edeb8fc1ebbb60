@@ -1,0 +1,12 @@
+package Bainian;
+
+public class BainianDemo {
+
+	public static void main(String[] args) {
+		System.out.println("    牛牛");
+		System.out.println("牛       牛");
+		System.out.println("牛       牛");
+
+	}
+
+}

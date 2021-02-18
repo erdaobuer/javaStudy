@@ -1,0 +1,18 @@
+package Anonymity;
+
+public class AnonymityDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+abstract class Animal{
+	void eat() {
+	}
+	void sleep() {
+	}
+}

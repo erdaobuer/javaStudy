@@ -1,0 +1,16 @@
+package com.tate.StringBuffer;
+
+public class StringBufferDemos {
+
+	public static void main(String[] args) {
+		StringBuffer sb =new StringBuffer();//默认长度16
+		StringBuffer sb1 =new StringBuffer(23);//定义长度23
+		System.out.println(sb.capacity());//StringBuffer 默认长度
+		System.out.println(sb.length());//StringBuffer 默认长度
+		sb.append("abc");
+		System.out.println(sb.capacity());//默认16+21=37
+		System.out.println(sb.length());
+
+	}
+
+}

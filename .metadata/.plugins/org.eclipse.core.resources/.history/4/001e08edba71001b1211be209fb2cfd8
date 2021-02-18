@@ -1,0 +1,10 @@
+package com.tate.StringBuffer;
+
+public class StringBufferDemos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

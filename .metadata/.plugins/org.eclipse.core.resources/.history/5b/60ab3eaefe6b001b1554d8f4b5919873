@@ -1,0 +1,12 @@
+package com.tate.String;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		byte[] bytes = {97,98,99,100,101};//byte最大127
+		String s1=new String(bytes);
+		System.out.println("s1="+s1);
+
+	}
+
+}
