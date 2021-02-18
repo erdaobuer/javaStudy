@@ -1,11 +1,5 @@
 package Suanfa;
 
-import java.sql.Date;
-import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.time.temporal.ChronoUnit;
-import java.util.function.IntPredicate;
-
 public class suanfaDemos {
 
 	public static void main(String[] args) {
@@ -33,8 +27,6 @@ public class suanfaDemos {
 	 * @Description: 轻的上浮，重的下降。相邻两个比较，前面>后面，就换位置
 	 */
 	public static int[] 冒泡排序(int[] arr) {
-		SimpleDateFormat df = new SimpleDateFormat("YYYY/MM/dd HH:mm:ss.SSS");
-        long NTime =df.parse(new Date()).getTime();
 		for (int i = 0; i < arr.length - 1; i++) {
 			for (int j = 0; j < arr.length - 1 - i; j++) {
 				int left = j;
@@ -46,9 +38,6 @@ public class suanfaDemos {
 				}
 			}
 		}
-		LocalDateTime localDateTime2= LocalDateTime.now();
-        long OTime  =df.parse(localDateTime2.toString()).getTime();
-		System.out.println(NTime-OTime);
 		return arr;
 	}
 
